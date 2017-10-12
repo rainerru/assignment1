@@ -6,7 +6,7 @@ public class MineSweeperTest {
 
 		MineSweeperGame game1 = new MineSweeperGame();
 		File file = new File("./input.txt");
-		long bla = game1.minesweep(file);
+		long sumOfHints = game1.minesweep(file);
 
 	}
 

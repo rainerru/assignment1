@@ -5,7 +5,7 @@ public class FormatException extends Exception{
 
     // constructor that accepts a message
     public FormatException(String message) {
-		super(message);
+			super(message);
     }
 	  
  }
